@@ -2,14 +2,14 @@ module Airtable exposing (getRecord, getRecords, createRecord, changeRecord, del
 
 {-| Package for Airtable integration. Just Http wrapper around calls. Watch https://airtable.com/api
 
-  # Database type
-  @docs DB
-  
-  # API wrappers
-  @docs getRecord, getRecords, createRecord, changeRecord, deleteRecord
+# Database type
+@docs DB
 
-  # Deletion reponse type and wrapper
-  @docs DeletionResponse, decodeDeletionResponce
+# API wrappers
+@docs getRecord, getRecords, createRecord, changeRecord, deleteRecord
+
+# Deletion reponse type and wrapper
+@docs DeletionResponse, decodeDeletionResponce
 
 -}
 
